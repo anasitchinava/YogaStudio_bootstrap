@@ -1,0 +1,189 @@
+html {
+    scroll-behavior: smooth;
+}
+img {
+    width: 100%;
+}
+.nav-text {
+    color: #343A40;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+.gap-50 {
+    gap: 50px;
+}
+.logo-heading {
+    color: #495057;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+}
+.logo-paragraph {
+    color: #495057;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+}
+.normal-text {
+    line-height: 16px;
+    font-style: normal;
+}
+.fitness {
+    color: #5F6F52;
+}
+.bg-container {
+    position: relative;
+    background-image: url('./../img/background.png');
+    background-size: cover;
+    background-position: center;
+    height: 832px;
+    margin-bottom: -40px;
+}
+.navbar {
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+}
+.navbar-brand img {
+    max-height: 100%;
+    width: auto;
+}
+.navbar-nav li.nav-item a.nav-link {
+    transition: transform 0.3s ease-in-out;
+}
+.navbar-nav li.nav-item a.nav-link:hover {
+    transform: scale(1.1);
+}
+.mt-95 {
+    margin-top: 95px;
+}
+.mt-60 {
+    margin-top: 60px;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+.bg-heading {
+    color: #495057;
+    font-family: Fredoka;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.64px;
+    text-transform: uppercase;
+    width: 542px;
+    height: 47px;
+}
+.bg-heading-2 {
+    font-family: 'Fredoka One' cursive;
+    opacity: 0.1;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 6.48px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8); 
+}
+.bg-paragraph {
+    color: #495057;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    width: 542px;
+    height: 82px;
+}
+.direction-column {
+    flex-direction: column;
+}
+.services-heading {
+    color: #343A40;
+    font-family: Inter;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.services-paragraph {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.equipment-section {
+    height: 100%;
+}
+.equipment-item {
+    margin-bottom: 15px;
+}
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: #5F6F52;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.equipment-photo {
+    border-radius: 25px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+.gallery-section {
+    text-align: center;
+    padding: 50px 0;
+}
+.photo-container {
+    margin-top: 30px;
+}
+.photo {
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+.photo:hover {
+    transform: scale(1.1);
+}
+footer {
+    background-color: white;
+    border-top: 2px solid #ccc;
+    padding: 10px 0;
+}
+.footer-icon {
+    width: 30px;
+}
+.icon-spacing {
+    margin-right: 20px;
+}
+.float-right {
+    float: right;
+}
+
+/* *****Responsivness***** */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px;
+    }
+    .navbar-brand img {
+        max-height: 60px;
+    }
+    .navbar-nav li.nav-item a.nav-link {
+        font-size: 14px;
+    }
+    .navbar-nav li.nav-item a.nav-link:hover {
+        transform: none;
+    }
+}
